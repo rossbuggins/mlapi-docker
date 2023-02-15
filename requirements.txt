@@ -1,0 +1,16 @@
+requests
+passlib
+bcrypt
+MarkupSafe ~= 2.0.1
+Werkzeug ~= 1.0.1
+tinydb
+imutils
+numpy
+flask_jwt_extended ~= 3.25.0
+flask_restful ~= 0.3.8
+flask ~= 1.1.2
+progressbar33
+scikit_learn
+pyzm>=0.3.56
+bjoern
+configupdater
