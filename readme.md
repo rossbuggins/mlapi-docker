@@ -1,5 +1,11 @@
 Docker container version of https://github.com/ZoneMinder/mlapi
 
+```
+docker pull rossbuggins/mlapi
+```
+
+https://hub.docker.com/r/rossbuggins/mlapi
+
 ## Info
 - Manual build of python 3.8
 - Manual build of opencv and dlib
