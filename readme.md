@@ -1,3 +1,15 @@
+Docker container version of https://github.com/ZoneMinder/mlapi
+
+## Info
+- Manual build of python 3.8
+- Manual build of opencv and dlib
+- Yolo fix
+
+## Notes
+- opencv build config is for CPU, GPU support not enabled
+- no multistage build, all source etc still in final image
+
+## Config
 1. Update config/secrets.ini
 1. Optional set api user and password in .env
 
