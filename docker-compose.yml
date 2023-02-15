@@ -7,7 +7,7 @@ services:
         - "./data/images:/mlapi/images/"
         - "./data/known_faces:/mlapi/known_faces/"
         - "./data/unknown_faces:/mlapi/unknown_faces/"   
-        - "./data/db:/mlapi/db"
+        - "./data/db:/mlapi/db/"
       ports:
         - "5000:5000"                    
       env_file:
