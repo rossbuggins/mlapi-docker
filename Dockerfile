@@ -3,7 +3,7 @@
 # Requirements.txt has specific versions.
 # Open CV 4.7 seems ok
 
-FROM debian:bullseye AS BUILD
+FROM debian:11 AS BUILD
 
 RUN apt-get -y update \
     && apt-get install -y \
