@@ -2,7 +2,7 @@ requests
 passlib
 bcrypt
 MarkupSafe ~= 2.0.1
-Werkzeug ~= 1.0.1
+Werkzeug~=3.1.4
 tinydb
 imutils
 numpy
