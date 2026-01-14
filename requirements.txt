@@ -2,7 +2,7 @@ requests
 passlib
 bcrypt
 MarkupSafe ~= 2.0.1
-Werkzeug ~= 1.0.1
+Werkzeug~=3.1.5
 tinydb
 imutils
 numpy
@@ -14,3 +14,4 @@ scikit_learn
 pyzm>=0.3.56
 bjoern
 configupdater
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
